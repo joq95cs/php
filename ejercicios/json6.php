@@ -1,0 +1,10 @@
+<?php
+
+$json_objeto = '{"Soanna": 19, "Joqsan": 26, "Kenya": 15, "Jader": 20}';
+
+$objeto = json_decode($json_objeto, true);
+
+echo $objeto['Soanna'] . '<br>';
+echo $objeto['Joqsan'] . '<br>';
+echo $objeto['Kenya'] . '<br>';
+echo $objeto['Jader'];

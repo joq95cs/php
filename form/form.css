@@ -1,0 +1,62 @@
+body {
+
+	font-family: "New Times Roman";
+	font-size: 18px;
+
+}
+
+
+#contenido {
+
+	width: 33%;
+	background: gray;
+	margin: 0 auto;
+	background: #E6FBD9;
+	text-align: center;
+
+}
+
+#tabla {
+
+	margin: 0 auto;
+	width: 100%;
+
+}
+
+#tabla, #tabla tr, #tabla td {
+
+	border: 1px solid black;
+
+}
+
+input {
+
+	width: 97%;
+
+}
+
+select {
+
+	width: 100%;
+
+}
+
+.c_submit {
+
+	width: 20%;
+	margin: 5px auto;
+
+}
+
+tr {
+
+	text-align: left;
+
+}
+
+.c_submit, .c_input, select {
+
+	font-family: "New Times Roman";
+	font-size: 18px;
+
+}

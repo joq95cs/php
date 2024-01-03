@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" type="text/css" href="form.css">
+
+</head>
+<body>
+
+	<div id="contenido">
+
+		<form action="receptor.php" method="post">
+			
+			<table id="tabla">
+			
+				<tr>
+
+					<td>Nombre(s)</td>	
+					<td><input type="text" class="c_input" name="nombre"></td>
+
+				</tr>
+
+				<tr>
+
+					<td>Apellidos</td>
+					<td><input type="text" class="c_input" name="apellidos"></td>
+
+				</tr>
+
+				<tr>
+
+					<td>Edad</td>
+					<td><input type="number" min="0" max="99" class="c_input" name="edad"></td>	
+
+				</tr>
+
+				<tr>
+
+					<td>Sexo</td>
+					<td>
+
+						<select name="sexo">
+
+							<option>Hombre</option>
+							<option>Mujer</option>
+
+
+						</select>
+
+					</td>
+
+				</tr>
+
+				<tr>
+
+					<td>Teléfono</td>
+					<td><input type="text" class="c_input" name="telefono"></td>	
+
+				</tr>
+
+				<tr>
+
+					<td>Email</td>
+					<td><input type="email" class="c_input" name="email"></td>
+
+				</tr>
+
+			</table>
+			
+			<input type="submit" class="c_submit">
+
+		</form>
+
+	</div>
+
+</body>
+</html>
